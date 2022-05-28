@@ -1,10 +1,7 @@
 :root {
-    --text-color: #881111;
-    --background-color: grey;
-    --focus-color: #8a088a;
-    --hover-color: #19bb19;
-    --selection-color: violet;
-    --selection-background-color: purple;
+    --text-color: #212121;
+    --contact-color: #757575;
+    --webstudio-color: #2196F3;
 }
 
 h1,
@@ -34,6 +31,29 @@ img {
 
 }
 
+.main-logo-pt1 {
+    color: var(--webstudio-color);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.main-logo-pt2 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.main-menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contact {
+    color: var(--contact-color);
+}
+
 .container {
     width: 1600px;
 }
@@ -42,7 +62,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 14px;
-    font-weight: 500;
     line-height: 1.5;
 }
 
@@ -54,25 +73,27 @@ body {
     text-decoration: none;
 }
 
-.span {
-    color: blue;
-}
-
 .link::selection {
-    color: var(--selection-color);
-    background-color: var(--selection-background-color);
+    color: var(--webstudio-color);
 }
 
 .link:hover {
-    color: var(--hover-color);
+    color: var(--webstudio-color);
     cursor: pointer;
 }
 
 .link:focus {
-    color: var(--focus-color)
+    color: var(--webstudio-color)
 }
 
 .section {
     color: var(--text-color);
-    background-color: var(--background-color);
+}
+
+.address-style {
+    font-style: normal;
+}
+
+.last-email-underline {
+    text-decoration: underline;
 }
