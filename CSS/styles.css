@@ -1,0 +1,48 @@
+:root {
+    --text-color: #881111;
+    --background-color: grey;
+    --focus-color: #8a088a;
+    --hover-color: #19bb19;
+    --selection-color: violet;
+    --selection-background-color: purple;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: none;
+}
+
+.span {
+    color: blue;
+}
+
+.link::selection {
+    color: var(--selection-color);
+    background-color: var(--selection-background-color);
+}
+
+.link:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
+.link:focus {
+    color: var(--focus-color)
+}
+
+.section {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.image {
+    width: 370px;
+    height: 400px;
+}
