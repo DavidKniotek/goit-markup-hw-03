@@ -192,9 +192,7 @@ body {
 
 .team-header {
     text-align: center;
-    padding-top: 94px;
-    font-size: 36px;
-}
+    padding-top: 94px;}
 
 .team-list {
     display: flex;
@@ -207,17 +205,19 @@ body {
 }
 
 .team-member-photo {
-    width: 270px;
-    height: 260px;
+    width: 170px;
+    height: 180px;
 }
 
 .team-member-name {
-    padding-top: 30px; 
+    padding-top: 20px;
+    font-size: 12px;
 }
 
 .team-member-job {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     color: var(--contact-color);
+    font-size: 12px;
 }
 
 .second-color {
@@ -227,6 +227,18 @@ body {
 .team-section .container {
     background-color: #F5F4FA;
     padding-bottom: 94px;
+    padding-left: 215px;
+    padding-right: 215px
+}
+
+/*-----------SEKCJA 5 / FOOTER-----------*/
+
+.footer .container {
+
+}
+
+.main-logo-end {
+    
 }
 
 /*--------------POZOSTAŁE-------------*/
