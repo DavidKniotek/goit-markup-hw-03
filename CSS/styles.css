@@ -1,3 +1,5 @@
+/*---USTAWIENIA ROOT I STRICTE WSZYSTKICH ELEMENTÓW---*/
+
 :root {
     --text-color: #212121;
     --contact-color: #757575;
@@ -19,6 +21,10 @@ ol {
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 p {
     padding: 0;
 }
@@ -26,6 +32,8 @@ p {
 img {
     display: block;
 }
+
+/* ----------HEADER---------- */
 
 .header .container {
     display: flex;
@@ -87,6 +95,8 @@ img {
     align-items: center;
 }
 
+/*----------SEKCJA 1 / KLASA HERO----------*/
+
 body {
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -132,10 +142,27 @@ body {
     box-shadow: #2F303A;
 }
 
-.list {
-    list-style: none;
+/*----------SEKCJA 2 / LOREMIPSUM----------*/
+
+.loremipsum .container {
+    display: flex;
+    margin-top: 94px;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-size: 10px;
 }
 
+.loremipsum-item:not(:last-child) {
+    margin-right: 46px;
+}
+
+.lorem-head {
+    font-size: 12px;
+}
+
+.lorem-text {
+    color: var(--contact-color)
+}
 
 .link {
     text-decoration: none;
@@ -152,6 +179,12 @@ body {
 
 .link:focus {
     color: var(--webstudio-color)
+}
+
+.button:hover {
+    opacity: 0.75;
+    cursor: pointer;
+
 }
 
 .section {
