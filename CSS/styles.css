@@ -27,8 +27,16 @@ img {
     display: block;
 }
 
-.header {
+.header .container {
+    display: flex;
+    align-items: center;
+}
 
+.main-logo {
+    padding-left: 215px;
+    padding-right: 93px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
 }
 
 .main-logo-pt1 {
@@ -43,6 +51,19 @@ img {
     font-size: 26px;
 }
 
+.navigation {
+    display: flex;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation-item:not(:last-child) {
+    margin-right: 46px;
+}
+
 .main-menu {
     font-weight: 500;
     font-size: 14px;
@@ -54,9 +75,18 @@ img {
     color: var(--contact-color);
 }
 
+.contact-top {
+    display: flex;
+    margin-left: auto;
+    margin-right: 48px;
+}
+
 .container {
     width: 1600px;
+    padding: 0 15;
+    align-items: center;
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -68,6 +98,7 @@ body {
 .list {
     list-style: none;
 }
+
 
 .link {
     text-decoration: none;
