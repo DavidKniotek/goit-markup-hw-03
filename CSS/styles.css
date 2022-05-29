@@ -217,8 +217,8 @@ body {
 .team-member-job {
     margin-top: 4px;
     padding-bottom: 20px;
-    color: var(--contact-color);
     font-size: 12px;
+    color: var(--contact-color);
 }
 
 .second-color {
