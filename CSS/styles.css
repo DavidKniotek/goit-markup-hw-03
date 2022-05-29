@@ -21,9 +21,7 @@ ol {
     padding: 0;
 }
 
-li {
-    list-style: none;
-}
+
 
 p {
     padding: 0;
@@ -91,11 +89,10 @@ img {
 
 .container {
     width: 1200px;
-    padding: 0 15;
     align-items: center;
 }
 
-/*----------SEKCJA 1 / KLASA HERO----------*/
+/*----------SEKCJA 1 / HERO----------*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -164,6 +161,32 @@ body {
     color: var(--contact-color)
 }
 
+/*----------SEKCJA 3 / SERVICES----------*/
+
+.services-head .container {
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    padding-left: 170px;
+    padding-right: 170px;
+    justify-content: center;
+}
+
+.services .container {
+    display: flex;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.service-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*-----------SEKCJA 4 / TEAM-----------*/
+
+
+
+
 .link {
     text-decoration: none;
 }
@@ -185,6 +208,10 @@ body {
     opacity: 0.75;
     cursor: pointer;
 
+}
+
+.list {
+    list-style: none;
 }
 
 .section {
