@@ -234,11 +234,23 @@ body {
 /*-----------SEKCJA 5 / FOOTER-----------*/
 
 .footer .container {
-
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 215px;
+    background-color: #2F303A;
 }
 
 .main-logo-end {
-    
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+}
+
+.main-logo-pt3 {
+    color: #FFFFFF;
+}
+
+.address-color {
+    color: #FFFFFF;
 }
 
 /*--------------POZOSTAŁE-------------*/
@@ -275,8 +287,4 @@ body {
 
 .address-style {
     font-style: normal;
-}
-
-.last-email-underline {
-    text-decoration: underline;
 }
