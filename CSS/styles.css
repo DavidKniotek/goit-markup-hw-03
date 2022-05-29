@@ -185,8 +185,51 @@ body {
 /*-----------SEKCJA 4 / TEAM-----------*/
 
 
+.team-section .team-header {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.team-header {
+    text-align: center;
+    padding-top: 94px;
+    font-size: 36px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
 
 
+.team-list-item {
+    text-align: center;
+}
+
+.team-member-photo {
+    width: 270px;
+    height: 260px;
+}
+
+.team-member-name {
+    padding-top: 30px; 
+}
+
+.team-member-job {
+    padding-bottom: 30px;
+    color: var(--contact-color);
+}
+
+.second-color {
+    background-color: white;
+}
+
+.team-section .container {
+    background-color: #F5F4FA;
+    padding-bottom: 94px;
+}
+
+/*--------------POZOSTAŁE-------------*/
 .link {
     text-decoration: none;
 }
