@@ -92,7 +92,7 @@ img {
     align-items: center;
 }
 
-/*----------SEKCJA 1 / HERO----------*/
+/*----------INDEX SEKCJA 1 / HERO----------*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -139,7 +139,7 @@ body {
     box-shadow: #2F303A;
 }
 
-/*----------SEKCJA 2 / LOREMIPSUM----------*/
+/*----------INDEX SEKCJA 2 / LOREMIPSUM----------*/
 
 .loremipsum .container {
     display: flex;
@@ -161,7 +161,7 @@ body {
     color: var(--contact-color)
 }
 
-/*----------SEKCJA 3 / SERVICES----------*/
+/*----------INDEX SEKCJA 3 / SERVICES----------*/
 
 .services-head .container {
     display: flex;
@@ -182,7 +182,7 @@ body {
     margin-right: 30px;
 }
 
-/*-----------SEKCJA 4 / TEAM-----------*/
+/*-----------INDEX SEKCJA 4 / TEAM-----------*/
 
 
 .team-section .team-header {
@@ -231,7 +231,7 @@ body {
     padding-right: 215px
 }
 
-/*-----------SEKCJA 5 / FOOTER-----------*/
+/*-----------INDEX SEKCJA 5 / FOOTER-----------*/
 
 .footer .container {
     padding-top: 30px;
@@ -252,6 +252,49 @@ body {
 .address-color {
     color: #FFFFFF;
 }
+
+/*------------PORTFOLIO HEADER BORDER-----------*/
+
+.header-border {
+    border: 1px solid #ECECEC;
+}
+
+
+/*---------PORTFOLIO SEKCJA 1 BUTTON-BAR--------*/
+
+.button-bar .container {
+    display: flex;
+    padding-top: 100px;
+    padding-right: 518px;
+    padding-left: 510px;
+    padding-bottom: 50px;
+
+
+}
+
+.button-style {
+    display: flex;
+    margin-right: 8px;
+    width: 114px;
+    height: 38px;
+    left: 740px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}
+
+.button-style:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 
 /*--------------POZOSTAŁE-------------*/
 .link {

@@ -16,34 +16,42 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <header>
+    <header class="header header-border">
+      <div class="container">
         <a class="link main-logo-pt2" href="./index.html">
-            <span class="main-logo-pt1">Web</span>Studio</a>
-        <nav>
-          <ul class="main-menu">
-            <li><a class="link" href="./agencja.html">Agencja</a></li>
-            <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="link" href="./kontakt.html">Kontakt</a></li>
+            <p class="main-logo"><span class="main-logo-pt1">Web</span>Studio</a></p>
+        <nav class="navigation">
+          <ul class="main-menu main-navigation list">
+            <li class="main-navigation-item"><a class="link" href="./agencja.html">Agencja</a></li>
+            <li class="main-navigation-item"><a class="link" href="./portfolio.html">Portfolio</a></li>
+            <li class="main-navigation-item"><a class="link" href="./kontakt.html">Kontakt</a></li>
           </ul>
         </nav>
-        <ul>
-          <li>
-            <a class="link contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a>
-          </li>
-          <li><a class="link contact" href="tel:48111111111">+48 111 111 111</a></li>
+        <ul class="list contact-top">
+        <li class="contact-top">
+            <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-top">
+            <a class="link contact" href="tel:48111111111">+48 111 111 111</a>
+        </li>
         </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <button type="button" class="link pointer">Wszystkie</button>
-        <button type="button" class="link pointer">Strony</button>
-        <button type="button" class="link pointer">Aplikacje</button>
-        <button type="button" class="link pointer">Dizajn</button>
-        <button type="button" class="link pointer">Marketing</button>
+      <section class="button-bar">
+        <div class="container">
+        <button type="button" class="pointer button-style">Wszystkie</button>
+        <button type="button" class="pointer button-style">Strony</button>
+        <button type="button" class="pointer button-style">Aplikacje</button>
+        <button type="button" class="pointer button-style">Dizajn</button>
+        <button type="button" class="pointer button-style">Marketing</button>
+        </div>
       </section>
       <section>
         <ul>
