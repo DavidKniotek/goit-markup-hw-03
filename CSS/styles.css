@@ -88,8 +88,11 @@ img {
 }
 
 .container {
-    width: 1200px;
-    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
 }
 
 /*----------INDEX SEKCJA 1 / HERO----------*/
