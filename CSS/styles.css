@@ -39,7 +39,7 @@ img {
 }
 
 .main-logo {
-    padding-left: 210px;
+    padding-left: 200px;
     padding-right: 93px;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -283,25 +283,29 @@ body {
     padding-right: 518px;
     padding-left: 510px;
     padding-bottom: 34px;
-
-
 }
+
+.button-list {
+    display: flex;
+    flex-direction: space-evenly;
+    margin-right: 8px;
+    
+}
+
 
 .button-style {
     display: flex;
     margin-right: 8px;
-    width: 114px;
     height: 38px;
-    left: 740px;
     top: 174px;
     background: #F5F4FA;
     border-radius: 4px;
     border: none;
-    text-align: center;
     padding-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
+    justify-content: center;
 
 }
 
