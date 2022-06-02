@@ -266,6 +266,7 @@ body {
 
 .header-border {
     border: 1px solid #ECECEC;
+    margin-bottom: 94px;
 }
 
 
@@ -273,7 +274,9 @@ body {
 
 .button-bar .container {
     display: flex;
-    padding-top: 100px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
     padding-right: 518px;
     padding-left: 510px;
     padding-bottom: 50px;
@@ -283,6 +286,9 @@ body {
 
 .button-style {
     display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
     margin-right: 8px;
     width: 114px;
     height: 38px;
@@ -308,7 +314,12 @@ body {
 /*---------PORTFOLIO SEKCJA 2 PIC-BOX--------*/
 
 .pic-box .container {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
     padding-left: 215px;
+    padding-right: 215px;
     padding-bottom: 94px;;
 
 }
@@ -330,8 +341,8 @@ body {
 
 
 .pics-img {
-    width: 250px;
-    height: 214px;
+    width: 220px;
+    height: 164px;
 }
 
 
