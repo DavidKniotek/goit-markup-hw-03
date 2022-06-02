@@ -286,9 +286,6 @@ body {
 
 .button-style {
     display: flex;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
     margin-right: 8px;
     width: 114px;
     height: 38px;
