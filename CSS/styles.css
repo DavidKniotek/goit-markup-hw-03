@@ -39,7 +39,6 @@ img {
 }
 
 .main-logo {
-    padding-left: 200px;
     padding-right: 93px;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -367,6 +366,9 @@ body {
 /*--------------POZOSTAŁE-------------*/
 .link {
     text-decoration: none;
+}
+
+.link-menu {
     color: var(--text-color);
 }
 
