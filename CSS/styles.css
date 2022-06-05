@@ -33,6 +33,11 @@ img {
     display: block;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* ----------HEADER---------- */
 
 .header .container {
@@ -112,19 +117,20 @@ body {
 }
 
 .business-solutions {
+    margin-top: 106px;
     margin-bottom: 30px;
     width: 696px;
 }
 
 .hero {
     background: var(--background-color);
+    height: 600px;
 }
 
 .hero .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
     flex-direction: column;
     font-family: 'Roboto';
     font-style: normal;
@@ -163,7 +169,6 @@ body {
 
 .loremipsum .container {
     display: flex;
-    margin-top: 94px;
     font-size: 14px;
     height: 101px;
 }
@@ -196,12 +201,10 @@ body {
 
 /*----------INDEX SEKCJA 3 / SERVICES----------*/
 
-.services-head .container {
-    display: flex;
-    margin-top: 94px;
-    margin-bottom: 50px;
+.services-head {
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -225,12 +228,10 @@ body {
 
 
 .team-section .team-header {
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
 .team-header {
-    padding-top: 94px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -293,10 +294,6 @@ body {
     background: #F5F4FA;
 }
 
-.team-section .container {
-    padding-bottom: 94px;
-}
-
 /*-----------INDEX SEKCJA 5 / FOOTER-----------*/
 
 .footer {
@@ -337,7 +334,6 @@ body {
 
 .header-border {
     border: 1px solid #ECECEC;
-    margin-bottom: 94px;
 }
 
 
@@ -384,7 +380,6 @@ body {
 .pic-box .container {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 64px;
 }
 
 
@@ -402,6 +397,9 @@ body {
     margin-right: 0px;
 }
 
+.pics-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
 
 .pics-img {
     width: 370px;
