@@ -26,6 +26,7 @@ ol {
 
 p {
     padding: 0;
+    margin: 0;
 }
 
 img {
@@ -370,14 +371,12 @@ body {
     padding: 6px 22px;
 }
 
-.button-shadow {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 .button-style:hover {
     background-color: #2196F3;
     color: #FFFFFF;
     cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /*---------PORTFOLIO SEKCJA 2 PIC-BOX--------*/
@@ -385,7 +384,7 @@ body {
 .pic-box .container {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 94px;
+    padding-bottom: 64px;
 }
 
 
@@ -430,12 +429,14 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     margin-top: 4px;
+    margin-bottom: 20px;
     padding-left: 24px;
     color: var(--contact-color)
 }
 
 .second-color-box {
     border: 1px solid #ECECEC;
+    border-top: none;
 }
 
 
