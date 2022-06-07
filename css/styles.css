@@ -173,6 +173,10 @@ body {
     height: 101px;
 }
 
+.loremipsum-list {
+    display: flex;
+}
+
 .loremipsum-item:not(:last-child) {
     margin-right: 30px;
 }
